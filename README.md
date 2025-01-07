@@ -153,22 +153,5 @@ Apply a specific coupon to the cart and return the updated cart with discounted 
 }
 ```
 
-## Requirements
-- **Node.js** or equivalent backend framework
-- **Database**: Use any database to store coupon and cart information (e.g., MongoDB, MySQL, PostgreSQL).
-
-## Error Handling
-- All endpoints return appropriate HTTP status codes.
-  - `400`: Bad Request
-  - `404`: Not Found
-  - `500`: Internal Server Error
-
-**Error Response:**
-```json
-{
-  "error": "Error message detailing the issue."
-}
-```
-
 ## License
 This project is licensed under the MIT License.
